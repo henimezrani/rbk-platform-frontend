@@ -3,7 +3,7 @@
     <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">RBK E-Learning Plateform</h3>
 
   <p align="center">
     Short description
@@ -12,10 +12,9 @@
 
 # RBK E-Learning Plateform
 
-> Dashboard based on paper dashboard UI template + vue-router
+> Based on paper dashboard UI template
 
-This project is a vue version of [Paper-dashboard](https://www.creative-tim.com/product/paper-dashboard)
-designed for vue js.The dashboard includes vue-router
+This project is made by the outcomes team of RBK Tunisia. It is a Learning Management System designed to meet the needs of RBK's instructional team in terms of material and class coordination.
 
 ## Table of contents
 
@@ -23,6 +22,7 @@ designed for vue js.The dashboard includes vue-router
 - [Status](#status)
 - [What's included](#whats-included)
 - [Contribution Guide](#contributing)
+- [Live Demo](#live-demo)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
@@ -43,46 +43,19 @@ If you don’t havee any of these tools installed already, you will need to:
 You will need to clone source code of client GitHub repository. To do this open console and execute following lines:
 
 ```shell
-git clone https://github.com/Ogui99/Flow-backend.git
+git clone https://github.com/rbk-outcomes/front-end.git
 ```
-### Installing Node Modules
-You will need to clone source code of client GitHub repository. To do this open console and execute following lines:
-
-```
- cd Flow-backend
- npm install
-```
-
-### Running local copy
-To run local copy in development mode, execute:
-```
- npm start
-```
-your http://localhost:3000 will be running for API calls
-
 
 ### Setting your environment
 
-The file _.env.dev_ is meant to set the environment variables, _.dev_ is meant to reference the development environment,
-If you need to set a new one, make a copy of the same file and rename it to environment you need to work on.
-ex: _.env.prod_ .
-In which, you'll set the environment variables you need to work on.
-To tell express which environment to follow, go to _app.js_
-and change the line 
-```
-require('custom-env').env('dev');
-```
-to
- 
-```
-require('custom-env').env('prod');
-```
+The file _.env_ is meant to set the environment variables. Request a copy of this file from the team.
 
 ### Build Setup
 
 #### install dependencies
 ```
-npm install
+ cd front-end
+ npm install
 ```
 #### serve with hot reload at localhost:8080
 ```
@@ -104,7 +77,7 @@ RBK E-Learning Plateform is in developmennt process
 
 ## What's included
 
-Here is the folder structure
+Here is the folder structure (do not forget to update this)
 
 ```text
 ├───config
@@ -126,20 +99,14 @@ Here is the folder structure
 ├───views
 ```
 
-
-Check the [Live Demo here](https://link-to-live-demo.com).
-
-## Template Documentation
-Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
-
-
-
 ## Contribution guide
 * Fork the repository
 * `npm install` or `yarn install`
 * Make changes
 * Create a new branch with your name and the feature name e.g: ```branch name : your-name-feature-name```
 * Open Pull Request
+
+Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
 
 For detailed explanation on how things work, checkout the [guide](https://github.com/vuejs/vue-cli/blob/dev/docs/README.md)
 
@@ -149,9 +116,14 @@ Please Read our coding style and contribution [guidelines]().
 
 Moreover, all Javascript should conform to the [Code Guide](), maintained by [standard](https://github.com/standard/standard).
 
+## Live Demo
+
+Check the [Live Demo here](https://link-to-live-demo.com).
+
 ## Creators
 
 [Heni Mezrani]()
+
 [Zied Barhoumi]()
 
 ## Thanks
