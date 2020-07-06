@@ -30,16 +30,18 @@ This project is made by the outcomes team of RBK Tunisia. It is a Learning Manag
 ## Quick start
 
 ### Installation Guidelines
+
 ### Prerequisites
 
 If you don’t havee any of these tools installed already, you will need to:
+
 ```
  Download and install git
  Download and install nodejs https://nodejs.org
 ```
 
-
 ### Get Started
+
 You will need to clone source code of client GitHub repository. To do this open console and execute following lines:
 
 ```shell
@@ -53,19 +55,26 @@ The file _.env_ is meant to set the environment variables. Request a copy of thi
 ### Build Setup
 
 #### install dependencies
+
 ```
  cd front-end
  npm install
 ```
+
 #### serve with hot reload at localhost:8080
+
 ```
 npm run dev
 ```
+
 #### build for production with minification
+
 ```
 npm run build
 ```
+
 #### lint
+
 ```
 npm run lint
 ```
@@ -73,7 +82,6 @@ npm run lint
 ## Status
 
 RBK E-Learning Plateform is in developmennt process
-
 
 ## What's included
 
@@ -93,20 +101,22 @@ Here is the folder structure (do not forget to update this)
 ├───routes
 │   └───api
 ├───Services
-│  
+│
 ├───uploads
 |
 ├───views
 ```
 
 ## Contribution guide
-* Fork the repository
-* `npm install` or `yarn install`
-* Make changes
-* Create a new branch with your name and the feature name e.g: ```branch name : your-name-feature-name```
-* Open Pull Request
+
+- Fork the repository
+- `npm install` or `yarn install`
+- Make changes
+- Create a new branch with your name and the feature name e.g: `branch name : your-name-feature-name`
+- Open Pull Request
 
 Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
+![](http://i.imgur.com/3iC1hOs.gif)
 
 For detailed explanation on how things work, checkout the [guide](https://github.com/vuejs/vue-cli/blob/dev/docs/README.md)
 
