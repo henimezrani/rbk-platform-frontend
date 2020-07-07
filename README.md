@@ -3,14 +3,14 @@
     <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">RBK E-Learning Plateform</h3>
+  <h3 align="center">RBK E-Learning Platform - Frontend</h3>
 
   <p align="center">
     Short description
   </p>
 </p>
 
-# RBK E-Learning Plateform
+# RBK E-Learning Platform
 
 > Based on paper dashboard UI template
 
@@ -45,7 +45,7 @@ If you don’t havee any of these tools installed already, you will need to:
 You will need to clone source code of client GitHub repository. To do this open console and execute following lines:
 
 ```shell
-git clone https://github.com/rbk-outcomes/front-end.git
+git clone https://github.com/rbk-outcomes/rbk-elearning-frontend.git
 ```
 
 ### Setting your environment
@@ -57,7 +57,7 @@ The file _.env_ is meant to set the environment variables. Request a copy of thi
 #### install dependencies
 
 ```
- cd front-end
+ cd rbk-elearning-frontend
  npm install
 ```
 
@@ -81,7 +81,7 @@ npm run lint
 
 ## Status
 
-RBK E-Learning Plateform is in developmennt process
+RBK E-Learning Platform is in development process
 
 ## What's included
 
@@ -132,9 +132,9 @@ Check the [Live Demo here](https://link-to-live-demo.com).
 
 ## Creators
 
-[Heni Mezrani]()
+[Heni Mezrani](https://github.com/henimezrani)
 
-[Zied Barhoumi]()
+[Zied Barhoumi](https://github.com/ziedbarhoumi1989)
 
 ## Thanks
 
