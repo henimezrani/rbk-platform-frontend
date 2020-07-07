@@ -64,13 +64,19 @@ The file _.env_ is meant to set the environment variables. Request a copy of thi
 #### serve with hot reload at localhost:8080
 
 ```
-npm start
+npm run dev
 ```
 
-#### test
+#### build for production with minification
 
 ```
-npm run test
+npm run build
+```
+
+#### lint
+
+```
+npm run lint
 ```
 
 ## Status
